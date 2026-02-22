@@ -6,13 +6,12 @@
  * @version 3.0 [cite: 90]
  */
 public class OOPSBannerApp1 {
-
     public static void main(String[] args) {
         // Construct each line using String.join() for better readability and efficiency[cite: 116].
         // Each line corresponds to a row in the banner for the letters O, O, P, S[cite: 118].
 
         // Row 1
-        System.out.println(String.join("", " **** ", " **** ", " ***** ", "  **** "));
+        System.out.println(String.join("", "*****", " *****", " ***** ", " ***** "));
         
         // Row 2
         System.out.println(String.join("", "** ** ", "** ** ", "** ** ", " ** "));
@@ -21,15 +20,15 @@ public class OOPSBannerApp1 {
         System.out.println(String.join("", "** ** ", "** ** ", "** ** ", "  *** "));
         
         // Row 4
-        System.out.println(String.join("", "** ** ", "** ** ", "***** ", "    ** "));
+        System.out.println(String.join("", "** ** ", "** ** ", "***** ", "   *** "));
         
         // Row 5
-        System.out.println(String.join("", "** ** ", "** ** ", "** ", "    ** "));
+        System.out.println(String.join("", "** ** ", "** ** ", "** ", "       ** "));
         
         // Row 6
-        System.out.println(String.join("", "** ** ", "** ** ", "** ", " ** **"));
+        System.out.println(String.join("", "** ** ", "** ** ", "** ", "    ** **"));
         
         // Row 7
-        System.out.println(String.join("", " **** ", " **** ", "** ", "  **** "));
+        System.out.println(String.join("", "***** ", "***** ", "** ", "    ***** "));
     }
 }
