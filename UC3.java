@@ -1,4 +1,4 @@
-public class OOPSBannerApp1 {
+public class OOPSBannerApp {
     public static void main(String[] args) {
         // Row 1
         System.out.println(String.join("", "*****", " *****", " ***** ", " ***** "));
@@ -16,5 +16,6 @@ public class OOPSBannerApp1 {
         System.out.println(String.join("", "***** ", "***** ", "** ", "    ***** "));
     }
 }
+
 
 
